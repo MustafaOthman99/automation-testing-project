@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  parallel="tests"  -> each <test> tag below (each test class) runs on its
+                       own thread at the same time.
+  thread-count="3"  -> up to 3 threads run concurrently.
+  This is safe ONLY because DriverFactory uses ThreadLocal<WebDriver>,
+  giving each thread its own isolated browser instance.
+-->
+<suite name="OrangeHRM Automation Suite" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="listeners.RetryListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="LoginTestsSuite">
+        <classes>
+            <class name="tests.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="PimTestsSuite">
+        <classes>
+            <class name="tests.PimTests"/>
+        </classes>
+    </test>
+
+    <test name="AdminAndUiTestsSuite">
+        <classes>
+            <class name="tests.AdminAndUiTests"/>
+        </classes>
+    </test>
+
+</suite>
