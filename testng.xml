@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- parallel="tests" = كل <test> على thread مستقل | thread-count=3 -->
+<suite name="OrangeHRM Automation Suite" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="Listeners.RetryListener"/>
+        <listener class-name="Listeners.TestListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="LoginTestsSuite">
+        <classes>
+            <class name="Tests.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="PimTestsSuite">
+        <classes>
+            <class name="Tests.PIMTests"/>
+        </classes>
+    </test>
+
+    <test name="AdminAndUiTestsSuite">
+        <classes>
+            <class name="Tests.AdminTests"/>
+            <class name="Tests.FooterAndSidebarTests"/>
+        </classes>
+    </test>
+
+</suite>
