@@ -4,15 +4,17 @@
     "password": "admin123"
   },
   "invalidLogins": [
-    { "username": "WrongUser", "password": "WrongPass123" },
-    { "username": "Admin", "password": "WrongPass123" }
+    {
+      "username": "wrongUser",
+      "password": "wrongPass"
+    }
   ],
   "employeeSearch": {
-    "existingEmployeeName": "Peter Mac",
-    "nonExistingEmployeeName": "Zzxxqq NotFound"
+    "existingEmployeeName": "Timothy",
+    "nonExistingEmployeeName": "NotExistEmployeeXYZ"
   },
   "newEmployee": {
-    "firstName": "Ahmed",
-    "lastName": "Automation"
+    "firstName": "Mustafa",
+    "lastName": "Othman"
   }
 }
