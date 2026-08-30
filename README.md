@@ -140,4 +140,3 @@ https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
 ## 👨‍💻 Author
 **Mustafa Othman**
-> Built as a QA automation practice project using Selenium WebDriver and TestNG with Page Object Model, data-driven testing, and parallel execution.
