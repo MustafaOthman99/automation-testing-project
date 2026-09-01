@@ -84,7 +84,7 @@ Login and employee data are stored externally in `testdata.json` and supplied to
 ### ⚡ Parallel Execution
 Tests run in parallel using:
 ```xml
-parallel="tests" thread-count="3"
+[//]: # (parallel="tests" thread-count="3")
 ```
 A `ThreadLocal<WebDriver>` ensures every parallel thread gets its own independent browser instance.
 
