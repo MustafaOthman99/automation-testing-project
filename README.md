@@ -39,7 +39,6 @@ The framework covers **11 test cases**:
 
 ## 🏛️ Framework Structure
 
-text
 src/test/java/
 ├── base/
 │   ├── DriverFactory.java       → ThreadLocal<WebDriver> for parallel execution
@@ -76,6 +75,8 @@ src/test/resources/
 
 testng.xml                        → Parallel execution config
 pom.xml                            → Maven dependencies
+
+
 ```
 
 ---
