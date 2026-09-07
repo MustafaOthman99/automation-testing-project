@@ -1,9 +1,9 @@
-package Tests;
+package Com.Orangehrm.Pages;
 
 import Base.BaseTest;
-import Pages.AddEmployeePage;
-import Pages.CommonPage;
-import Pages.PIMPage;
+import pages.AddEmployeePage;
+import pages.CommonPage;
+import pages.PIMPage;
 import Utils.JsonDataProvider;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;

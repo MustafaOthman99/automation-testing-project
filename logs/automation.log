@@ -1,0 +1,677 @@
+2026-08-27 17:58:48 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 17:58:48 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 17:58:48 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 17:59:01 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-27 17:59:01 [TestNG-tests-1] INFO  Listeners.TestListener - START: emptyLogin
+2026-08-27 17:59:01 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-27 17:59:01 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyAddUserPage
+2026-08-27 17:59:01 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 17:59:03 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: emptyLogin
+2026-08-27 17:59:03 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-27 17:59:03 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 17:59:05 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-27 17:59:05 [TestNG-tests-2] INFO  Listeners.TestListener - START: addEmployeeMissingFirstName
+2026-08-27 17:59:05 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 17:59:10 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-27 17:59:10 [TestNG-tests-1] INFO  Listeners.TestListener - START: invalidLogin
+2026-08-27 17:59:18 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: invalidLogin
+2026-08-27 17:59:18 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-27 17:59:18 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 17:59:18 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyAddUserPage
+2026-08-27 17:59:18 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-27 17:59:18 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 17:59:22 [TestNG-tests-2] INFO  Listeners.TestListener - SKIP: addEmployeeMissingFirstName
+2026-08-27 17:59:22 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-27 17:59:23 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 17:59:25 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-27 17:59:25 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyFooterBrandingLink
+2026-08-27 17:59:25 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 17:59:26 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-27 17:59:26 [TestNG-tests-1] INFO  Listeners.TestListener - START: validLogin
+2026-08-27 17:59:28 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-27 17:59:28 [TestNG-tests-2] INFO  Listeners.TestListener - START: addEmployeeMissingFirstName
+2026-08-27 17:59:28 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 17:59:29 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: validLogin
+2026-08-27 17:59:29 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-27 17:59:35 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addEmployeeMissingFirstName
+2026-08-27 17:59:35 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-27 17:59:36 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 17:59:38 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyFooterBrandingLink
+2026-08-27 17:59:38 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-27 17:59:39 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 17:59:41 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-27 17:59:41 [TestNG-tests-2] INFO  Listeners.TestListener - START: addNewEmployeeSuccessfully
+2026-08-27 17:59:41 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 17:59:43 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-27 17:59:43 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifySidebarMenu
+2026-08-27 17:59:43 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 17:59:46 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifySidebarMenu
+2026-08-27 17:59:46 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-27 17:59:53 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addNewEmployeeSuccessfully
+2026-08-27 17:59:53 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-27 17:59:54 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:00:02 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:00:02 [TestNG-tests-2] INFO  Listeners.TestListener - START: openAddEmployeePage
+2026-08-27 18:00:02 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:00:07 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: openAddEmployeePage
+2026-08-27 18:00:07 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:00:08 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:00:12 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:00:12 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchExistingEmployee
+2026-08-27 18:00:12 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:00:19 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchExistingEmployee
+2026-08-27 18:00:19 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:00:19 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:00:25 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:00:25 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchNonExistingEmployee
+2026-08-27 18:00:25 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:00:31 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchNonExistingEmployee
+2026-08-27 18:00:31 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:07:57 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:08:05 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:08:08 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:51:19 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:51:28 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:51:28 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:51:34 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:51:35 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:51:39 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:51:39 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:51:50 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:51:51 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:51:55 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:51:55 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:51:58 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:51:58 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:52:04 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:52:05 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:52:05 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:52:08 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:52:13 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:52:13 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:52:22 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:52:25 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:52:25 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:52:32 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:52:32 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:52:38 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:52:40 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:52:45 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:52:45 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:53:07 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:53:07 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:53:15 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:53:15 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:53:21 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:53:21 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:53:26 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:53:26 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:53:33 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 18:53:33 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 18:53:38 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 18:53:38 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 18:53:45 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:01:42 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:01:49 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:01:49 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:02:03 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:25:17 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:25:23 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:25:23 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:25:29 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:25:30 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:25:35 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:25:35 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:25:43 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:25:44 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:25:50 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:25:50 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:25:53 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:25:53 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:25:58 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:25:59 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:25:59 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:26:06 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:26:08 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:26:09 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:26:15 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:26:18 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:26:18 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:26:24 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:26:24 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:26:31 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:26:31 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:26:38 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:26:38 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:26:50 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:26:51 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:26:57 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:26:57 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:27:02 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:27:02 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:27:08 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:27:08 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:27:14 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:27:15 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:27:21 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:27:21 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:27:27 [main] INFO  Base.BaseTest - Closing browser
+2026-08-27 19:32:12 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-27 19:32:20 [main] INFO  Base.BaseTest - Opened login page
+2026-08-27 19:32:20 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-27 19:32:26 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:28:24 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:28:24 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:28:24 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:28:40 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:28:40 [TestNG-tests-2] INFO  Listeners.TestListener - START: addEmployeeMissingFirstName
+2026-08-28 01:28:40 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:28:44 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:28:44 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyAddUserPage
+2026-08-28 01:28:44 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:28:51 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:28:51 [TestNG-tests-1] INFO  Listeners.TestListener - START: emptyLogin
+2026-08-28 01:28:55 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: emptyLogin
+2026-08-28 01:28:55 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:28:55 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:28:59 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyAddUserPage
+2026-08-28 01:28:59 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:29:00 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:29:04 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addEmployeeMissingFirstName
+2026-08-28 01:29:04 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:29:04 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:29:32 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:29:32 [TestNG-tests-1] INFO  Listeners.TestListener - START: invalidLogin
+2026-08-28 01:29:33 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:29:33 [TestNG-tests-2] INFO  Listeners.TestListener - START: addNewEmployeeSuccessfully
+2026-08-28 01:29:33 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:29:36 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:29:36 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyFooterBrandingLink
+2026-08-28 01:29:36 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:29:36 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: invalidLogin
+2026-08-28 01:29:36 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:29:37 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:29:48 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addNewEmployeeSuccessfully
+2026-08-28 01:29:48 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:29:48 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:29:53 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyFooterBrandingLink
+2026-08-28 01:29:53 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:29:53 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:30:13 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:30:13 [TestNG-tests-2] INFO  Listeners.TestListener - START: openAddEmployeePage
+2026-08-28 01:30:13 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:30:15 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:30:15 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifySidebarMenu
+2026-08-28 01:30:15 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:30:22 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifySidebarMenu
+2026-08-28 01:30:22 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:30:23 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: openAddEmployeePage
+2026-08-28 01:30:23 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:30:24 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:30:30 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:30:30 [TestNG-tests-1] INFO  Listeners.TestListener - START: validLogin
+2026-08-28 01:30:34 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: validLogin
+2026-08-28 01:30:34 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:30:40 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:30:40 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchExistingEmployee
+2026-08-28 01:30:40 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:30:51 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchExistingEmployee
+2026-08-28 01:30:51 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:30:52 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:31:21 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:31:21 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchNonExistingEmployee
+2026-08-28 01:31:21 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:31:30 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchNonExistingEmployee
+2026-08-28 01:31:30 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:34:32 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:35:04 [main] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:35:06 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:35:07 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:35:28 [main] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:35:33 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:35:33 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:35:46 [main] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:35:52 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:39:44 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:39:44 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:39:44 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:39:48 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:39:48 [TestNG-tests-2] INFO  Listeners.TestListener - START: addEmployeeMissingFirstName
+2026-08-28 01:39:48 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:40:00 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:40:00 [TestNG-tests-1] INFO  Listeners.TestListener - START: emptyLogin
+2026-08-28 01:40:01 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: emptyLogin
+2026-08-28 01:40:02 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:40:02 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:40:02 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:40:02 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyAddUserPage
+2026-08-28 01:40:02 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:40:05 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addEmployeeMissingFirstName
+2026-08-28 01:40:05 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:40:06 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:40:09 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyAddUserPage
+2026-08-28 01:40:09 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:40:09 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:40:14 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:40:14 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyFooterBrandingLink
+2026-08-28 01:40:14 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:40:21 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:40:21 [TestNG-tests-1] INFO  Listeners.TestListener - START: invalidLogin
+2026-08-28 01:40:25 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyFooterBrandingLink
+2026-08-28 01:40:25 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:40:25 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:40:27 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:40:27 [TestNG-tests-2] INFO  Listeners.TestListener - START: addNewEmployeeSuccessfully
+2026-08-28 01:40:27 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:40:27 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: invalidLogin
+2026-08-28 01:40:27 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:40:27 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:40:35 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:40:35 [TestNG-tests-1] INFO  Listeners.TestListener - START: validLogin
+2026-08-28 01:40:39 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: validLogin
+2026-08-28 01:40:39 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:40:41 [TestNG-tests-2] INFO  Listeners.TestListener - SKIP: addNewEmployeeSuccessfully
+2026-08-28 01:40:41 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:40:41 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:40:43 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:40:43 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifySidebarMenu
+2026-08-28 01:40:43 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:40:50 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifySidebarMenu
+2026-08-28 01:40:50 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:40:53 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:40:53 [TestNG-tests-2] INFO  Listeners.TestListener - START: addNewEmployeeSuccessfully
+2026-08-28 01:40:53 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:41:07 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addNewEmployeeSuccessfully
+2026-08-28 01:41:07 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:41:07 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:41:29 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:41:29 [TestNG-tests-2] INFO  Listeners.TestListener - START: openAddEmployeePage
+2026-08-28 01:41:29 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:41:35 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: openAddEmployeePage
+2026-08-28 01:41:35 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:41:36 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:41:45 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:41:45 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchExistingEmployee
+2026-08-28 01:41:45 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:41:51 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchExistingEmployee
+2026-08-28 01:41:51 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:41:52 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:42:02 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:42:02 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchNonExistingEmployee
+2026-08-28 01:42:02 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:42:08 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchNonExistingEmployee
+2026-08-28 01:42:08 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:46:54 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:47:17 [main] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:47:18 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:47:19 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:47:30 [main] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:47:34 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:47:34 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:47:49 [main] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:47:55 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:51:00 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:51:00 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:51:00 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:51:10 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:51:10 [TestNG-tests-2] INFO  Listeners.TestListener - START: addEmployeeMissingFirstName
+2026-08-28 01:51:10 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:51:13 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:51:13 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyAddUserPage
+2026-08-28 01:51:13 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:51:16 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:51:16 [TestNG-tests-1] INFO  Listeners.TestListener - START: emptyLogin
+2026-08-28 01:51:16 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addEmployeeMissingFirstName
+2026-08-28 01:51:16 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:51:17 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:51:17 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: emptyLogin
+2026-08-28 01:51:17 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:51:18 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:51:21 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyAddUserPage
+2026-08-28 01:51:21 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:51:21 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:51:30 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:51:30 [TestNG-tests-1] INFO  Listeners.TestListener - START: invalidLogin
+2026-08-28 01:51:30 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:51:30 [TestNG-tests-2] INFO  Listeners.TestListener - START: addNewEmployeeSuccessfully
+2026-08-28 01:51:30 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:51:31 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:51:31 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyFooterBrandingLink
+2026-08-28 01:51:31 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:51:34 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: invalidLogin
+2026-08-28 01:51:34 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:51:34 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:51:46 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addNewEmployeeSuccessfully
+2026-08-28 01:51:46 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:51:47 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:51:49 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:51:49 [TestNG-tests-1] INFO  Listeners.TestListener - START: validLogin
+2026-08-28 01:51:49 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyFooterBrandingLink
+2026-08-28 01:51:49 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:51:49 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:51:52 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: validLogin
+2026-08-28 01:51:52 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:51:52 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:51:52 [TestNG-tests-2] INFO  Listeners.TestListener - START: openAddEmployeePage
+2026-08-28 01:51:52 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:51:57 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: openAddEmployeePage
+2026-08-28 01:51:57 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:51:57 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:52:01 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:52:01 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifySidebarMenu
+2026-08-28 01:52:01 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:52:04 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifySidebarMenu
+2026-08-28 01:52:04 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:52:12 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:52:12 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchExistingEmployee
+2026-08-28 01:52:12 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:52:19 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchExistingEmployee
+2026-08-28 01:52:19 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:52:19 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:52:28 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:52:28 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchNonExistingEmployee
+2026-08-28 01:52:28 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 01:52:34 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchNonExistingEmployee
+2026-08-28 01:52:34 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:54:54 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:54:58 [main] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:55:03 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:55:03 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:55:19 [main] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:55:23 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 01:55:23 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 01:55:36 [main] INFO  Base.BaseTest - Opened login page
+2026-08-28 01:55:39 [main] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:00:39 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:00:39 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:00:39 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:00:46 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:00:46 [TestNG-tests-2] INFO  Listeners.TestListener - START: addEmployeeMissingFirstName
+2026-08-28 02:00:46 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:00:48 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:00:48 [TestNG-tests-1] INFO  Listeners.TestListener - START: emptyLogin
+2026-08-28 02:00:49 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: emptyLogin
+2026-08-28 02:00:49 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:00:50 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:00:53 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addEmployeeMissingFirstName
+2026-08-28 02:00:53 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:00:53 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:00:53 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:00:53 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyAddUserPage
+2026-08-28 02:00:53 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:00:54 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:00:54 [TestNG-tests-1] INFO  Listeners.TestListener - START: invalidLogin
+2026-08-28 02:00:57 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: invalidLogin
+2026-08-28 02:00:57 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:00:57 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:01:01 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyAddUserPage
+2026-08-28 02:01:01 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:01:02 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:01:08 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:01:08 [TestNG-tests-1] INFO  Listeners.TestListener - START: validLogin
+2026-08-28 02:01:10 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: validLogin
+2026-08-28 02:01:10 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:01:11 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:01:11 [TestNG-tests-2] INFO  Listeners.TestListener - START: addNewEmployeeSuccessfully
+2026-08-28 02:01:11 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:01:17 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:01:17 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyFooterBrandingLink
+2026-08-28 02:01:17 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:01:24 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addNewEmployeeSuccessfully
+2026-08-28 02:01:24 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:01:24 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:01:30 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyFooterBrandingLink
+2026-08-28 02:01:30 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:01:30 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:01:34 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:01:34 [TestNG-tests-2] INFO  Listeners.TestListener - START: openAddEmployeePage
+2026-08-28 02:01:34 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:01:39 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: openAddEmployeePage
+2026-08-28 02:01:39 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:01:40 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:01:42 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:01:42 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifySidebarMenu
+2026-08-28 02:01:42 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:01:42 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:01:42 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchExistingEmployee
+2026-08-28 02:01:42 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:01:45 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifySidebarMenu
+2026-08-28 02:01:45 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:01:51 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchExistingEmployee
+2026-08-28 02:01:51 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:01:51 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:01:56 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:01:56 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchNonExistingEmployee
+2026-08-28 02:01:56 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:02:02 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchNonExistingEmployee
+2026-08-28 02:02:02 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:04 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:04 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:04 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:13 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:13 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:13 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:13 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyAddUserPage
+2026-08-28 02:15:13 [TestNG-tests-2] INFO  Listeners.TestListener - START: addEmployeeMissingFirstName
+2026-08-28 02:15:13 [TestNG-tests-1] INFO  Listeners.TestListener - START: emptyLogin
+2026-08-28 02:15:13 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:15:13 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:15:14 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: emptyLogin
+2026-08-28 02:15:14 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:14 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:19 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyAddUserPage
+2026-08-28 02:15:19 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:20 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:20 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:20 [TestNG-tests-1] INFO  Listeners.TestListener - START: invalidLogin
+2026-08-28 02:15:21 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addEmployeeMissingFirstName
+2026-08-28 02:15:21 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:21 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:23 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: invalidLogin
+2026-08-28 02:15:23 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:24 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:25 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:25 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyFooterBrandingLink
+2026-08-28 02:15:25 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:15:27 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:27 [TestNG-tests-2] INFO  Listeners.TestListener - START: addNewEmployeeSuccessfully
+2026-08-28 02:15:27 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:15:29 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:29 [TestNG-tests-1] INFO  Listeners.TestListener - START: validLogin
+2026-08-28 02:15:32 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: validLogin
+2026-08-28 02:15:32 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:41 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addNewEmployeeSuccessfully
+2026-08-28 02:15:41 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:41 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:42 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyFooterBrandingLink
+2026-08-28 02:15:42 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:42 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:47 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:47 [TestNG-tests-2] INFO  Listeners.TestListener - START: openAddEmployeePage
+2026-08-28 02:15:47 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:15:52 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: openAddEmployeePage
+2026-08-28 02:15:52 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:52 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:15:53 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:53 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifySidebarMenu
+2026-08-28 02:15:53 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:15:56 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifySidebarMenu
+2026-08-28 02:15:56 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:15:57 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:15:57 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchExistingEmployee
+2026-08-28 02:15:57 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:16:03 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchExistingEmployee
+2026-08-28 02:16:03 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-28 02:16:04 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-28 02:16:10 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-28 02:16:10 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchNonExistingEmployee
+2026-08-28 02:16:10 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-28 02:16:16 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchNonExistingEmployee
+2026-08-28 02:16:16 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:10:26 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:10:26 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:10:26 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:10:44 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:10:44 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyAddUserPage
+2026-08-30 16:10:44 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:10:44 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:10:44 [TestNG-tests-2] INFO  Listeners.TestListener - START: addEmployeeMissingFirstName
+2026-08-30 16:10:44 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:10:45 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:10:45 [TestNG-tests-1] INFO  Listeners.TestListener - START: emptyLogin
+2026-08-30 16:10:46 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: emptyLogin
+2026-08-30 16:10:46 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:10:46 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:10:49 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyAddUserPage
+2026-08-30 16:10:49 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:10:49 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:10:51 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addEmployeeMissingFirstName
+2026-08-30 16:10:51 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:10:51 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:10:51 [TestNG-tests-1] INFO  Listeners.TestListener - START: invalidLogin
+2026-08-30 16:10:51 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:10:53 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: invalidLogin
+2026-08-30 16:10:53 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:10:54 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:10:54 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:10:54 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyFooterBrandingLink
+2026-08-30 16:10:54 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:10:57 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:10:57 [TestNG-tests-2] INFO  Listeners.TestListener - START: addNewEmployeeSuccessfully
+2026-08-30 16:10:57 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:11:01 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyFooterBrandingLink
+2026-08-30 16:11:01 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:11:01 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:11:08 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:11:08 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifySidebarMenu
+2026-08-30 16:11:08 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:11:10 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addNewEmployeeSuccessfully
+2026-08-30 16:11:10 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:11:10 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:11:11 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifySidebarMenu
+2026-08-30 16:11:11 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:11:14 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:11:14 [TestNG-tests-2] INFO  Listeners.TestListener - START: openAddEmployeePage
+2026-08-30 16:11:14 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:11:20 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: openAddEmployeePage
+2026-08-30 16:11:20 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:11:20 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:11:23 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:11:23 [TestNG-tests-1] INFO  Listeners.TestListener - START: validLogin
+2026-08-30 16:11:25 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: validLogin
+2026-08-30 16:11:25 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:11:29 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:11:29 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchExistingEmployee
+2026-08-30 16:11:29 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:11:35 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchExistingEmployee
+2026-08-30 16:11:35 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:11:35 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:11:45 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:11:45 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchNonExistingEmployee
+2026-08-30 16:11:45 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:11:50 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchNonExistingEmployee
+2026-08-30 16:11:50 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:12:49 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:12:49 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:12:49 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:12:56 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:12:57 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyAddUserPage
+2026-08-30 16:12:57 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:12:57 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:12:57 [TestNG-tests-2] INFO  Listeners.TestListener - START: addEmployeeMissingFirstName
+2026-08-30 16:12:57 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:12:57 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:12:57 [TestNG-tests-1] INFO  Listeners.TestListener - START: emptyLogin
+2026-08-30 16:12:58 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: emptyLogin
+2026-08-30 16:12:58 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:12:58 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:13:03 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyAddUserPage
+2026-08-30 16:13:03 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:13:03 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:13:03 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:13:03 [TestNG-tests-1] INFO  Listeners.TestListener - START: invalidLogin
+2026-08-30 16:13:04 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addEmployeeMissingFirstName
+2026-08-30 16:13:04 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:13:04 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:13:05 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: invalidLogin
+2026-08-30 16:13:05 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:13:05 [TestNG-tests-1] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:13:08 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:13:08 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifyFooterBrandingLink
+2026-08-30 16:13:08 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:13:10 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:13:10 [TestNG-tests-2] INFO  Listeners.TestListener - START: addNewEmployeeSuccessfully
+2026-08-30 16:13:10 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:13:11 [TestNG-tests-1] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:13:11 [TestNG-tests-1] INFO  Listeners.TestListener - START: validLogin
+2026-08-30 16:13:14 [TestNG-tests-1] INFO  Listeners.TestListener - PASS: validLogin
+2026-08-30 16:13:14 [TestNG-tests-1] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:13:14 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifyFooterBrandingLink
+2026-08-30 16:13:14 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:13:15 [TestNG-tests-3] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:13:22 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: addNewEmployeeSuccessfully
+2026-08-30 16:13:22 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:13:23 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:13:24 [TestNG-tests-3] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:13:24 [TestNG-tests-3] INFO  Listeners.TestListener - START: verifySidebarMenu
+2026-08-30 16:13:24 [TestNG-tests-3] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:13:26 [TestNG-tests-3] INFO  Listeners.TestListener - PASS: verifySidebarMenu
+2026-08-30 16:13:26 [TestNG-tests-3] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:13:28 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:13:28 [TestNG-tests-2] INFO  Listeners.TestListener - START: openAddEmployeePage
+2026-08-30 16:13:28 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:13:32 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: openAddEmployeePage
+2026-08-30 16:13:32 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:13:33 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:13:38 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:13:38 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchExistingEmployee
+2026-08-30 16:13:38 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:13:44 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchExistingEmployee
+2026-08-30 16:13:44 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:13:44 [TestNG-tests-2] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:13:51 [TestNG-tests-2] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:13:51 [TestNG-tests-2] INFO  Listeners.TestListener - START: searchNonExistingEmployee
+2026-08-30 16:13:51 [TestNG-tests-2] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:13:57 [TestNG-tests-2] INFO  Listeners.TestListener - PASS: searchNonExistingEmployee
+2026-08-30 16:13:57 [TestNG-tests-2] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:30:28 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:30:35 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:30:35 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:30:40 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:30:40 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:30:47 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:30:47 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:30:53 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:30:55 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:31:00 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:31:00 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:31:03 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:31:03 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:31:09 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:31:10 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:31:10 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:31:15 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:31:17 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:31:18 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:31:23 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:31:25 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:31:26 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:31:31 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:31:31 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:31:38 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:31:38 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:31:41 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:31:41 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:32:05 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:32:05 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:32:09 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:32:09 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:32:16 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:32:16 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:32:23 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:32:23 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:32:28 [main] INFO  Base.BaseTest - Closing browser
+2026-08-30 16:32:28 [main] INFO  Base.BaseTest - Starting browser: chrome
+2026-08-30 16:32:34 [main] INFO  Base.BaseTest - Opened login page
+2026-08-30 16:32:34 [main] INFO  Base.BaseTest - Login with valid credentials from testdata.json
+2026-08-30 16:32:40 [main] INFO  Base.BaseTest - Closing browser

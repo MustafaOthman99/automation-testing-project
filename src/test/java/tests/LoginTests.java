@@ -1,8 +1,8 @@
 package Tests;
 
-import Base.BaseTest;
-import Pages.DashboardPage;
-import Pages.LoginPage;
+import com.orange.Base.BaseTest;
+import pages.DashboardPage;
+import pages.LoginPage;
 import Utils.JsonDataProvider;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;

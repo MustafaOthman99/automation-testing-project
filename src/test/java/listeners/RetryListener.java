@@ -2,7 +2,7 @@ package Listeners;
 
 import org.testng.IAnnotationTransformer;
 import org.testng.annotations.ITestAnnotation;
-import Utils.RetryAnalyzer;
+import utilities.RetryAnalyzer;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
