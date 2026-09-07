@@ -43,6 +43,7 @@ src/test/java/
 ├── base/
 │   ├── DriverFactory.java       → ThreadLocal<WebDriver> for parallel execution
 │   └── BaseTest.java            → Setup/teardown, login helper
+
 ├── pages/
 │   ├── BasePage.java            → Common explicit-wait helpers
 │   ├── LoginPage.java           → @Step-annotated login actions
@@ -53,14 +54,17 @@ src/test/java/
 │   ├── AddEmployeePage.java     → Add Employee form actions
 │   ├── FooterPage.java          → Footer & branding link
 │   └── SidebarPage.java         → Sidebar menu verification
+
 ├── utilities/
 │   ├── ConfigReader.java        → Reads config.properties
 │   ├── JsonDataReader.java      → Reads raw values from testdata.json
 │   ├── TestDataProvider.java    → TestNG @DataProvider methods
 │   └── RetryAnalyzer.java       → Retries failed tests
+
 ├── Listeners/
 │   ├── Execution.java           → IExecutionListener: logs suite start/finish
 │   └── RetryListener.java       → Auto-attaches RetryAnalyzer to all tests
+
 └── tests/
     ├── LoginTest.java
     ├── AdminTest.java
