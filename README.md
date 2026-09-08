@@ -39,78 +39,47 @@ The framework covers **11 test cases**:
 
 ## 🏛️ Framework Structure
 
-src/test/java/
-├── base/
-│   ├── DriverFactory.java       → ThreadLocal<WebDriver> for parallel execution
-│   └── BaseTest.java            → Setup/teardown, login helper
-├── pages/
-│   ├── BasePage.java            → Common explicit-wait helpers
-│   ├── LoginPage.java           → @Step-annotated login actions
-│   ├── DashboardPage.java       → Dashboard header verification
-│   ├── AdminPage.java           → Admin menu / Add User page actions
-│   ├── PimPage.java             → PIM menu navigation
-│   ├── EmployeeListPage.java    → Employee search & results
-│   ├── AddEmployeePage.java     → Add Employee form actions
-│   ├── FooterPage.java          → Footer & branding link
-│   └── SidebarPage.java         → Sidebar menu verification
-├── utilities/
-│   ├── ConfigReader.java        → Reads config.properties
-│   ├── JsonDataReader.java      → Reads raw values from testdata.json
-│   ├── TestDataProvider.java    → TestNG @DataProvider methods
-│   └── RetryAnalyzer.java       → Retries failed tests
-├── Listeners/
-│   ├── Execution.java           → IExecutionListener: logs suite start/finish
-│   └── RetryListener.java       → Auto-attaches RetryAnalyzer to all tests
-└── tests/
-    ├── LoginTest.java
-    ├── AdminTest.java
-    ├── EmployeeTest.java
-    ├── FooterTest.java
-    └── SidebarTest.java
-
-src/test/resources/
-├── config.properties            → base.url / browser / explicit.wait
-├── testdata.json                → test data (data-driven)
-└── log4j2.xml                   → logging configuration
-
-testng.xml                        → Parallel execution config
-pom.xml                            → Maven dependencies
-```
 src
 ├── main
 │   └── java
-│       ├── base
-│       │   └── BaseTest.java
 │       ├── pages
-│       │   ├── LoginPage.java
-│       │   ├── DashboardPage.java
-│       │   ├── PimPage.java
-│       │   ├── EmployeeListPage.java
-│       │   ├── AddEmployeePage.java
-│       │   ├── AdminPage.java
-│       │   ├── FooterPage.java
-│       │   └── SidebarPage.java
+│       │   ├── LoginPage.java            → @Step-annotated login actions
+│       │   ├── DashboardPage.java        → Dashboard header verification
+│       │   ├── PimPage.java              → PIM menu navigation
+│       │   ├── EmployeeListPage.java     → Employee search & results
+│       │   ├── AddEmployeePage.java      → Add Employee form actions
+│       │   ├── AdminPage.java            → Admin menu / Add User page actions
+│       │   ├── FooterPage.java           → Footer & branding link
+│       │   └── SidebarPage.java          → Sidebar menu verification
 │       └── utilities
-│           └── ConfigReader.java
+│           └── ConfigReader.java        → Reads config.properties
+│           ├── JsonDataReader.java      → Reads raw values from testdata.json
+│           └── RetryAnalyzer.java       → Retries failed tests
 │
 ├── test
 │   ├── java
+├   │   │── base
+│   │   │   └── BaseTest.java            → Setup/teardown, login helper
 │   │   ├── tests
 │   │   │   ├── LoginTest.java
 │   │   │   ├── EmployeeTest.java
 │   │   │   ├── AdminTest.java
 │   │   │   ├── FooterTest.java
 │   │   │   └── SidebarTest.java
+│   │   ├── Listeners/
+│   │   │      ├── Execution.java           → IExecutionListener: logs suite start/finish
+│   │   │      └── RetryListener.java       → Auto-attaches RetryAnalyzer to all tests   
 │   │   └── utilities
-│   │       └── TestDataProvider.java
+│   │       └── TestDataProvider.java     → TestNG @DataProvider methods
 │   │
 │   └── resources
-│       ├── config.properties
-│       └── testData.json
+│       ├── config.properties            → base.url / browser / explicit.wait
+│       ├── testdata.json                → test data (data-driven)
+│       └── log4j2.xml                   → logging configuration
 │
-├── testng.xml
-└── pom.xml
-
+├── testng.xml                        → Parallel execution config
+├── pom.xml                            → Maven dependencies
+ 
 ---
 
 ## ✨ Key Framework Features
