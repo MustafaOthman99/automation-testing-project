@@ -76,6 +76,40 @@ src/test/resources/
 testng.xml                        → Parallel execution config
 pom.xml                            → Maven dependencies
 ```
+src
+├── main
+│   └── java
+│       ├── base
+│       │   └── BaseTest.java
+│       ├── pages
+│       │   ├── LoginPage.java
+│       │   ├── DashboardPage.java
+│       │   ├── PimPage.java
+│       │   ├── EmployeeListPage.java
+│       │   ├── AddEmployeePage.java
+│       │   ├── AdminPage.java
+│       │   ├── FooterPage.java
+│       │   └── SidebarPage.java
+│       └── utilities
+│           └── ConfigReader.java
+│
+├── test
+│   ├── java
+│   │   ├── tests
+│   │   │   ├── LoginTest.java
+│   │   │   ├── EmployeeTest.java
+│   │   │   ├── AdminTest.java
+│   │   │   ├── FooterTest.java
+│   │   │   └── SidebarTest.java
+│   │   └── utilities
+│   │       └── TestDataProvider.java
+│   │
+│   └── resources
+│       ├── config.properties
+│       └── testData.json
+│
+├── testng.xml
+└── pom.xml
 
 ---
 
